@@ -80,7 +80,7 @@ sudo mn --topo single,3 --controller=remote,ip=127.0.0.1,port=6633
 net
 ```
 
-![Topology](screenshots/topology.png)
+![Topology](screenshots/topology.jpeg)
 
 **Observation:** h1, h2, h3 connected to switch s1.
 
