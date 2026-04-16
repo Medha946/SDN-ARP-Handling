@@ -68,7 +68,7 @@ sudo mn --topo single,3 --controller=remote,ip=127.0.0.1,port=6633
 ./pox.py log.level --DEBUG openflow.of_01 arp_controller
 ```
 
-![Controller](screenshots/controller.png)
+![Controller](screenshots/controller.jpg)
 
 **Observation:** Controller starts and listens for connections.
 
@@ -137,7 +137,7 @@ h1 iperf -c h2
 
 ### Controller Logs
 
-![Controller Logs](screenshots/controller_logs.png)
+![Controller Logs](screenshots/controller_logs.jpg)
 
 **Observation:** Controller processes ARP and blocks h1 → h3.
 
